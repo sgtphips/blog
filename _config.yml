@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Brent's Blog
-email: poposhub@gmail.com
+email: 
 description: > # this means to ignore newlines until "baseurl:"
   This blog serves to share my thoughts with the rest of the world.
   The Main focus for this blog will be techinical in nature. I would
