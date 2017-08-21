@@ -20,7 +20,7 @@ description:
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 production_url : http://sgtphips.github.io.com
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  sgphips
+github_username:  sgtphips
 
 # Build settings
 markdown: kramdown
