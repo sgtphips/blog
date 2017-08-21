@@ -16,7 +16,7 @@
 title: Brent's Blog
 email:
 description:
-  This site is proudly hosted by [Github-Pages](http://github.io)
+  This site is proudly hosted by 
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 production_url : http://sgtphips.github.io.com
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
