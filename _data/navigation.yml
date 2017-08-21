@@ -4,7 +4,7 @@ navs:
     url: index.html
 
   - title: About
-    url: about
+    url: about.index
 
   - title: Contact
     url: contact.html
