@@ -16,7 +16,7 @@
 title: Brent's Blog
 email:
 description:
-permalink: pretty
+permalink: /:categories/:title/
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 production_url : http://sgtphips.github.io.com
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
