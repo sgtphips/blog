@@ -16,11 +16,10 @@
 title: Brent's Blog
 email:
 description:
-  This site is proudly hosted by 
+  This site is proudly hosted by
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 production_url : http://sgtphips.github.io.com
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
 github_username:  sgphips
 
 # Build settings
