@@ -3,7 +3,6 @@ layout: post
 title:  "So it Begins"
 date:   2017-08-21 00:08:00 -0500
 category: personal
-permalink: pretty
 ---
 Today marks the first day in my online blogging journey. I have decided to create a blog and share my thoughts in a place
 that is not Facebook or Twitter. Honestly, I am not much of a social media buff. My passion in life is Information Technology.
