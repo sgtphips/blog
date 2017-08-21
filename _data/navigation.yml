@@ -1,0 +1,10 @@
+nav_list_title: Site Navigation
+navs:
+  - title: Home
+    url: index.html
+
+  - title: About
+    url: about.html
+
+  - title: Contact
+    url: contact.html
