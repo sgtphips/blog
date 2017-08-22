@@ -2,25 +2,65 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-  
   {{ content }}
+  <div class="row">
+      <div class="col-lg-12">
+        <h2>Hi</h2>
+      </div>
+  </div>
+  <div class="row">
+    <div class="col-md-10">
+      <ul class="list-inline">   
+          {% for post in site.posts %} 
+          <li class="list-inline-item">
+           <div class="card text-center" style="width: 20rem;">
+             <div class="card-header">
+                 <a class="nav-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+               </div>
+             <!-- <img class="card-img-top" src="http://fillmurray.com/300/300" alt="Card image cap"> -->
+             <div class="card-body">
+             {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+               <p class="card-text">{{ post.date | date: date_format }} | {{post.author}}</p>
+             </div>
+           </div>
+          </li>
+           {% endfor %}
+      </ul>
+    </div>
+    <div class="col-md-2">
+      <ul class="list-group">
+      <li class="list-group-item list-group-item-success">Jekyll</li>
+        {% for post in site.categories.jekyll %}
+          {% if post.url %}
+              <li class="list-group-item"><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+    
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+<!-- =========== For loops to pull in by category. 
+================ This will help with homepage content -->
 
-</div>
+    <!-- <p>Posts in category "jekyll" are:</p>
+
+    <ul>
+      {% for post in site.categories.jekyll %}
+        {% if post.url %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+
+    <p>Posts in category "personal" are:</p>
+
+    <ul>
+      {% for post in site.categories.personal %}
+        {% if post.url %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul> -->
