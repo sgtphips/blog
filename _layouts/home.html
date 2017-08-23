@@ -3,33 +3,61 @@ layout: default
 ---
 
   {{ content }}
-  <div class="row">
-      <div class="col-lg-12">
-        <h2>Hi</h2>
-      </div>
-  </div>
-  <div class="row">
-    <div class="col-md-10">
+<div class="container">
+  <div class="row home-all-post">
+    <div class="col-sm-6 col-md-12">
       <ul class="list-inline">   
           {% for post in site.posts %} 
           <li class="list-inline-item">
-           <div class="card text-center" style="width: 20rem;">
-             <div class="card-header">
-                 <a class="nav-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-               </div>
-             <!-- <img class="card-img-top" src="http://fillmurray.com/300/300" alt="Card image cap"> -->
+           <div class="card text-center" style="width: 22rem;">
+
+               <a class="nav-link" href="{{ post.url | relative_url }}">
+                 <img class="img-fluid" src="http://fillmurray.com/300/300" alt="Card image cap">
+               </a>
+             
              <div class="card-body">
              {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-               <p class="card-text">{{ post.date | date: date_format }} | {{post.author}}</p>
+                <p>
+                <a class="nav-link" href="{{ post.url | relative_url }}">
+                {{ post.title }}
+                </a></p>
+
+               <p class="card-text">{{post.author}} | {{ post.date | date: date_format }}</p>
              </div>
            </div>
           </li>
            {% endfor %}
       </ul>
     </div>
-    <div class="col-md-2">
+    
+  </div>
+  <div class="row">
+    <div class="col-sm-8 col-md-4">
       <ul class="list-group">
-      <li class="list-group-item list-group-item-success">Jekyll</li>
+      <li class="list-group-item list-group-item-dark">Jekyll</li>
+        {% for post in site.categories.jekyll %}
+          {% if post.url %}
+              <li class="list-group-item">
+              <a href="{{ post.url }}">{{ post.title }}</a>
+              by {{ post.author }}
+              </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="col-sm-8 col-md-4">
+      <ul class="list-group">
+      <li class="list-group-item list-group-item-dark">Jekyll</li>
+        {% for post in site.categories.jekyll %}
+          {% if post.url %}
+              <li class="list-group-item"><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="col-sm-8 col-md-4">
+      <ul class="list-group">
+      <li class="list-group-item list-group-item-dark">Jekyll</li>
         {% for post in site.categories.jekyll %}
           {% if post.url %}
               <li class="list-group-item"><a href="{{ post.url }}">{{ post.title }}</a></li>
@@ -39,6 +67,8 @@ layout: default
     </div>
   </div>
     
+</div>
+  
 
 
 
