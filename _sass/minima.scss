@@ -48,3 +48,26 @@ $on-laptop:        800px !default;
   "minima/layout",
   "minima/syntax-highlighting"
 ;
+
+
+.home-all-post {
+	margin:0 auto;
+}
+
+.container {
+	padding: 15px;
+}
+
+.card-header {
+	background-color: #343a40;
+}
+
+.card-header-title {
+	color: #fff;
+}
+
+.list-group-item-dark {
+	background-color: #343a40;
+	color: #fff;
+	text-transform: uppercase;
+}
