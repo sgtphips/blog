@@ -28,6 +28,7 @@ Here are some benefits to using a service like Wix.com to setup your website:
 | Footer row      |            |                 |                |
 |-----------------+------------+-----------------+----------------|
 
+{: .table .table-striped}
 | Heading 1 | Heading 2 | Heading 3 |
 | --------- | --------- | --------- |
 | Row 1, column 1 | Row 1, column 2 | Row 1, column 3|
