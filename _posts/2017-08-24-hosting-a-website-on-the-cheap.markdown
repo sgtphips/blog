@@ -15,9 +15,9 @@ It is August 2017 and there are so many different ways that a person can setup a
 
 Here are some benefits to using a service like Wix.com to setup your website:
 
-| Cost | Setup Time | Difficulty |
+|Cost |Setup Time |Difficulty |
 |:----:|:----------:|:----------:|
-| Free | 20 minutes | Very Easy  |
+|Free |20 minutes |Very Easy  |
 
- 
+
 
