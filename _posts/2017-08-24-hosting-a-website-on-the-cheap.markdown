@@ -15,9 +15,18 @@ It is August 2017 and there are so many different ways that a person can setup a
 
 Here are some benefits to using a service like Wix.com to setup your website:
 
-|Cost |Setup Time |Difficulty |
-|:----:|:----------:|:----------:|
-|Free |20 minutes |Very Easy  |
+|-----------------+------------+-----------------+----------------|
+| Default aligned |Left aligned| Center aligned  | Right aligned  |
+|-----------------|:-----------|:---------------:|---------------:|
+| First body part |Second cell | Third cell      | fourth cell    |
+| Second line     |foo         | **strong**      | baz            |
+| Third line      |quux        | baz             | bar            |
+|-----------------+------------+-----------------+----------------|
+| Second body     |            |                 |                |
+| 2 line          |            |                 |                |
+|=================+============+=================+================|
+| Footer row      |            |                 |                |
+|-----------------+------------+-----------------+----------------|
 
 
 
