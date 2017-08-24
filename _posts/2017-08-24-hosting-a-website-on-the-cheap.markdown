@@ -16,7 +16,7 @@ Hosting a website on the cheap
 Here are some benefits to using a service like Wix.com to setup your website:
 
 {: .table .table-striped .table-responsive}
-{: .tr .bg-success}
+{: tr class="bg-success"}
 |   Cost      |   Setup Time   |   Difficulty |
 | :---------: | :---------:    | :---------:  |
 | Free        | Less Than 1 hr | Super Easy   |
