@@ -14,10 +14,16 @@ layout: default
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
       {% endif %}</p>
   </header>
+  
 
-  <div class="post-content" itemprop="articleBody">
+  <div class="container">
     {{ content }}
   </div>
+
+<!--   
+  <div class="post-content" itemprop="articleBody">
+    
+  </div> -->
 
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
