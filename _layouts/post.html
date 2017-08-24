@@ -21,8 +21,8 @@ layout: default
   <div class="container">
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
-      <h1 class="display-3">Fluid jumbotron</h1>
-      <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+      <h1 class="display-3">{{ page.title | escape }}</h1>
+      <p class="lead">{{ page.date | date: date_format }} >> {{ page.author }}</p>
     </div>
   </div>
     {{ content }}
