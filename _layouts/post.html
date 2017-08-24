@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="container">
+<!-- <article class="post" itemscope itemtype="http://schema.org/BlogPosting"> -->
+<!--   <div class="container">
     <header class="post-header">
       <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
       <p class="post-meta">
@@ -14,7 +14,7 @@ layout: default
           • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
         {% endif %}</p>
     </header>
-  </div>
+  </div> -->
   
   
 
@@ -22,12 +22,8 @@ layout: default
     {{ content }}
   </div>
 
-<!--   
-  <div class="post-content" itemprop="articleBody">
-    
-  </div> -->
 
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
   {% endif %}
-</article>
+<!-- </article> -->
