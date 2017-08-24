@@ -15,25 +15,11 @@ Hosting a website on the cheap
 
 Here are some benefits to using a service like Wix.com to setup your website:
 
-|-----------------+------------+-----------------+----------------|
-| Default aligned |Left aligned| Center aligned  | Right aligned  |
-|-----------------|:-----------|:---------------:|---------------:|
-| First body part |Second cell | Third cell      | fourth cell    |
-| Second line     |foo         | **strong**      | baz            |
-| Third line      |quux        | baz             | bar            |
-|-----------------+------------+-----------------+----------------|
-| Second body     |            |                 |                |
-| 2 line          |            |                 |                |
-|=================+============+=================+================|
-| Footer row      |            |                 |                |
-|-----------------+------------+-----------------+----------------|
-
 {: .table .table-striped}
-| Heading 1 | Heading 2 | Heading 3 |
-| --------- | --------- | --------- |
-| Row 1, column 1 | Row 1, column 2 | Row 1, column 3|
-| Row 2, column 1 | Row 2, column 2 | Row 2, column 3|
-| Row 3, column 1 | Row 3, column 2 | Row 3, column 3|
+|   Cost      |   Setup Time   |   Difficulty |
+| :---------: | :---------:    | :---------:  |
+| Free        | Less Than 1 hr | Super Easy   |
+
 
 
 
