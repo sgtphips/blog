@@ -72,6 +72,10 @@ $on-laptop:        800px !default;
 	padding: 50px;
 }
 
+.post-body p {
+	line-height: 1.5;
+}
+
 
 // Import partials.
 @import
