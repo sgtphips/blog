@@ -27,7 +27,6 @@ Here are some benefits to using a service like Wix.com to setup your website:
 * You can get started with a wix.com website for free!! You just have to sign up with them and prepare to get spammed. They will continously spam you, trying to get you to upgrade to their premium service. The major benefit to this is that it will remove the wix.com branding from your webpages. If you are just trying to set something up on the fly then I wouldn't worry about it too much.
 
 
-
 ## Setup Time
 ----
 * In theory, you can setup a wix.com website in less than an hour. I had to use this tool to create a website for a school project. It was pretty easy to use.
@@ -35,3 +34,5 @@ Here are some benefits to using a service like Wix.com to setup your website:
 ## Difficulty
 ----
 * Super easy to use and setup! Plus there are a ton of youtube and help videos to get you started.
+
+Despite it being easy to go the Wix route I would suggest that you try out hosting a website on [GitHub Pages](http://pages.github.com)
