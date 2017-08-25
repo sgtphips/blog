@@ -10,7 +10,7 @@ layout: default
           <li class="list-group-item">
               <img src="{{post.post_image}}" alt="" class="img-thumbnail">
                <a class="nav-link text-right" href="{{ post.url | relative_url }}">{{post.title}}</a>
-               <p class="text-right">{{ post.content | strip_html | truncatewords:75 }}</p>
+               <p class="text-left">{{ post.content | strip_html | truncatewords:75 }}</p>
           </li>
            {% endfor %}
       </ul>
