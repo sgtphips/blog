@@ -7,7 +7,7 @@ layout: default
     <div class="col-sm-12 col-md-12">
       <ul class="list-group list-group-flush w-100 align-items-stretch">   
           {% for post in site.posts %} 
-          <li class="list-group-item">
+          <li class="list-group-item d-inline">
               <img src="{{post.post_image}}" alt="" class="img-thumbnail">
                <a class="nav-link text-right" href="{{ post.url | relative_url }}">{{post.title}}</a>
                <p class="text-left">{{ post.content | strip_html | truncatewords:75 }}</p>
