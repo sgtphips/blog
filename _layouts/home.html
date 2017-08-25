@@ -7,25 +7,16 @@ layout: default
     <div class="col-sm-12 col-sm-12">
       <ul class="list-inline">   
           {% for post in site.posts %} 
-          <li class="list-inline-item">
-           <div class="card text-center" style="width: 20rem;">
-
+          <li>
                <a class="nav-link" href="{{ post.url | relative_url }}">
-                 <img class="img-fluid" src="{{post.post_image}}" alt="Card image cap">
+                 {{post.title}}
                </a>
-             
-             <div class="card-body">
-                <p>
-                <a class="nav-link" href="{{ post.url | relative_url }}">
-                {{ post.title }}
-                </a></p>
-             </div>
-           </div>
           </li>
            {% endfor %}
       </ul>
     </div>
 </div>
+
 <div class="container">
   <div class="row">
     <div class="col-sm-8 col-md-4">
