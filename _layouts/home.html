@@ -5,8 +5,7 @@ layout: default
   {{ content }}
 <div class="container">
 <div class="row">
-  <div class="col-sm-12 col-md-4">
-    <ul class="list-group list-group-flush">
+  <div class="col-sm-12 col-md-12">
     <div class="list-group list-group-horizontal">
       {% for post in site.posts %} 
       <li class="list-group-item">
@@ -15,7 +14,8 @@ layout: default
           <p class="text-left">{{ post.content | strip_html | truncatewords:75 }}</p> 
       </li>
        {% endfor %}
-    </div>  
+    </div>
+    <ul class="list-group list-group-flush">  
         {% for post in site.posts %} 
         <li class="list-group-item">
             <!-- <img src="{{post.post_image}}" alt="" class="img-thumbnail"> -->
