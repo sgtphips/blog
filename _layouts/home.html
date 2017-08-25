@@ -5,9 +5,9 @@ layout: default
   {{ content }}
 <div class="container">
     <div class="col-sm-12 col-sm-12">
-      <ul class="list-inline">   
+      <ul class="list-group">   
           {% for post in site.posts %} 
-          <li>
+          <li class="list-group-item">
                <a class="nav-link" href="{{ post.url | relative_url }}">
                  {{post.title}}
                </a>
