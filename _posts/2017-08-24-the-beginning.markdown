@@ -5,7 +5,7 @@ date:   2017-08-24 00:08:00 -0500
 category: blog
 tags: [personal, misc]
 author: Brent Phillips
-post_image: http://www.placecage.com/c
+post_image: http://www.placecage.com/c/200/200
 ---
 Today marks the first day in my online blogging journey. I have decided to create a blog and share my thoughts in a place
 that is not Facebook or Twitter. Honestly, I am not much of a social media buff. My passion in life is Information Technology.
