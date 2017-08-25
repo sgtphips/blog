@@ -10,7 +10,9 @@ layout: default
       <div class="list-group list-group-horizontal">
           <!-- <img src="{{post.post_image}}" alt="" class="img-thumbnail"> -->
           <a class="list-group-item" href="{{ post.url | relative_url }}">{{post.title}}</a>
-          <p class="text-left">{{ post.content | strip_html | truncatewords:75 }}</p> 
+          <p class="text-left">{{ post.content | strip_html | truncatewords:75 }}
+          <a href="{{ post.url | relative_url }}"><button type="button" class="btn btn-outline-primary">Read More</button></a>
+          </p> 
        {% endfor %}
     </div>
   </div>
