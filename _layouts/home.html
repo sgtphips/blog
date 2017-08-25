@@ -8,9 +8,9 @@ layout: default
       <ul class="list-group list-group-flush w-80 align-items-stretch">   
           {% for post in site.posts %} 
           <li class="list-group-item">
-              <img src="{{post.post_image}}" alt="" class="img-thumbnail">
+              <!-- <img src="{{post.post_image}}" alt="" class="img-thumbnail"> -->
+              <p class="text-left">{{ post.content | strip_html | truncatewords:75 }}</p>
                <a class="nav-link" href="{{ post.url | relative_url }}">{{post.title}}</a>
-               <p class="text-left">{{ post.content | strip_html | truncatewords:75 }}</p>
           </li>
            {% endfor %}
       </ul>
