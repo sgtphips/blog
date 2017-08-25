@@ -4,14 +4,23 @@ layout: default
 
   {{ content }}
 <div class="container">
-<div class="row d-inline">
+<div class="row">
   <div class="col-sm-12 col-md-4">
-    <ul class="list-group list-group-flush">   
+    <ul class="list-group list-group-flush">
+    <div class="list-group list-group-horizontal">
+      {% for post in site.posts %} 
+      <li class="list-group-item">
+          <!-- <img src="{{post.post_image}}" alt="" class="img-thumbnail"> -->
+          <a class="list-group-item" href="{{ post.url | relative_url }}">{{post.title}}</a>
+          <p class="text-left">{{ post.content | strip_html | truncatewords:75 }}</p> 
+      </li>
+       {% endfor %}
+    </div>  
         {% for post in site.posts %} 
         <li class="list-group-item">
             <!-- <img src="{{post.post_image}}" alt="" class="img-thumbnail"> -->
-            <p class="text-left">{{ post.content | strip_html | truncatewords:75 }}</p>
-             <a class="nav-link" href="{{ post.url | relative_url }}">{{post.title}}</a>
+            <a class="nav-link" href="{{ post.url | relative_url }}">{{post.title}}</a>
+            <p class="text-left">{{ post.content | strip_html | truncatewords:75 }}</p> 
         </li>
          {% endfor %}
     </ul>
