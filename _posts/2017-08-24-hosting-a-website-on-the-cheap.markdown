@@ -10,7 +10,6 @@ author: Brent Phillips
 post_image: 'http://www.placecage.com/g/200/200'
 published: true
 ---
-
 It is August 2017 and there are so many different ways that a person can setup a website for themselves. The setup that you use should be based on your over all goal. Is this a personal or profession website? That is the question that I would ask myself before anything else. 
 
 The reason behind this is that you need to know the limitations and fuctionality of your website before you create anything. For example, if I need a website to sell my goods and services then I need to research websites that their main function is selling goods and services. 
