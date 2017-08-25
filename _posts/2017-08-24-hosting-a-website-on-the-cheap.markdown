@@ -7,7 +7,7 @@ tags:
   - website
   - hosting
 author: Brent Phillips
-post_image: 'http://www.placecage.com/g/300/300'
+post_image: 'http://www.placecage.com/g/'
 published: true
 ---
 
